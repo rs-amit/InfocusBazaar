@@ -8,7 +8,7 @@
 }
 
 .coverImage{
-  
+  /* border: 1px solid black; */
   width:100%;
   z-index:-1;
   margin-bottom:-150px;
