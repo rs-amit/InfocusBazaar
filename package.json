@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Server.js",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix ecommerce && npm run build --prefix ecommerce"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.7",
+    "mongoose-type-url": "^2.1.0",
+    "nodemon": "^2.0.12"
+  }
+}
